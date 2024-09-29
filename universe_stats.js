@@ -14,7 +14,7 @@ async function fetch_data() {
         let req = new Request(url);
         return await req.loadJSON();
     } catch (error) {
-        console.error("Error fetching data:", error);
+        console.error("Error fetching data: ", error);
         return error;
     }
 }
@@ -47,7 +47,6 @@ async function display() {
         space.font = Font.systemFont(6);
 
         let players_txt = `${players} CCU`;
-        // let favorites_txt = `★ ${favorites}`;
         let visits_txt = `➤ ${visits}`;
 
         let players_label = widget.addText(players_txt);

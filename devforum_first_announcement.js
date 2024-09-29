@@ -14,7 +14,7 @@ async function fetch_latest() {
 
     if (response && response.topic_list && response.topic_list.topics && response.topic_list.topics.length > 1) {
         let topic = response.topic_list.topics[1];
-        if (topic.pinned) { topic = response.topic_list.topics[2]; }; // (not lazy at all)
+        if (topic.pinned == true) { topic = response.topic_list.topics[2]; }; // (not lazy at all)
 
         return {
             title: topic.title,
