@@ -89,8 +89,9 @@ async function display() {
         suffix.font = Font.systemFont(8);
 
     } else {
-        textLabel.text = `ERROR: ${data}`;
-        textLabel.textColor = Color.red();
+        let error_label = widget.addText(`ERROR QUERYING ROBLOX API`);
+        error_label.textColor = Color.red();
+        error_label.font = Font.boldSystemFont(18);
     }
 
     let background_image = await get_highlighted_icon();
