@@ -2,11 +2,11 @@
 // These must be at the very top of the file. Do not edit.
 // icon-color: green; icon-glyph: magic;
 
-// universe_stats.js / github.com/wlft/roblox-ios-widgets
+// universe_stats/uvstatsv1.js / github.com/wlft/roblox-ios-widgets
 // intended as a small widget
 
 const widget = new ListWidget();
-const universe = 5902342001; // target universe ID here
+const universe = 13058; // target universe ID here
 
 async function fetch_data() {
     try {
