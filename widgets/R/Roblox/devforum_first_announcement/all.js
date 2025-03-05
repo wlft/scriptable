@@ -2,7 +2,7 @@
 // These must be at the very top of the file. Do not edit.
 // icon-color: red; icon-glyph: magic;
 
-// devforum_first_announcement/all.js // github.com/wlft/roblox-ios-widgets
+// devforum_first_announcement/all.js // github.com/wlft/scriptable
 // intended as a medium widget
 
 let widget = new ListWidget();

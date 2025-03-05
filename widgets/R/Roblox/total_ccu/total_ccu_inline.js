@@ -2,7 +2,7 @@
 // These must be at the very top of the file. Do not edit.
 // icon-color: gray; icon-glyph: magic;
 
-// universe_stats/uvstatsv1.js / github.com/wlft/roblox-ios-widgets
+// universe_stats/uvstatsv1.js / github.com/wlft/scriptable
 // intended as an inline accessory widget
 
 const widget = new ListWidget();
