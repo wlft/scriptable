@@ -1,3 +1,3 @@
-Roblox-specific iOS widgets - written for [Scriptable](https://scriptable.app/)
+[Scriptable](https://scriptable.app/) iOS widgets
 
-Read the [installation guide here](https://gitbook.wolfite.dev/scriptable/roblox-ios-widget-installation-guide)!
+For Roblox-specific widgets, read the [installation guide here](https://gitbook.wolfite.dev/scriptable/roblox-ios-widget-installation-guide)!
